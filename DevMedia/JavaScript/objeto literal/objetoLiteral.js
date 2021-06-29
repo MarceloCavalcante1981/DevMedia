@@ -30,6 +30,19 @@ if ( atendeAClassificacaoEtaria === true ) {
     console.log("O usuário ainda não pode assistir o conteúdo");
 
 }
+
+
+//pos incremento
+
+var numero_1 = 5;
+var numero_2 = 3;
+var numero_3 = 10;
+
+var resultado = numero_3 * (numero_1 - numero_2);
+
+console.log(resultado++);
+
+
 */
 
 
@@ -57,6 +70,8 @@ var sinopse_serie = serie_do_dia.sinopse;
 
 console.log("Hoje é dia de " + nome_serie + " às " + horario_serie);
 console.log("A seguir uma visão geral da série: " + sinopse_serie);
+
+
 
 
 
