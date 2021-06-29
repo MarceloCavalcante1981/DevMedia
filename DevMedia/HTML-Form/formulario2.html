@@ -56,24 +56,32 @@
 
 
     <!--  -->
+    <div>
+        <h1>Este é o titulo da seção</h1>
+        <p>Este é o primeiro parágrafo.
+            <a htref="tabelas.html" target="_self">Segue o link </a>
+            <img digite="imagem.jpg" />
+        </p>
+    </div>
 
-    <!DOCTYPE html>
-    <html lang="pt-br">
+    <!-- mehod post -->
+    <form method="post" action="dados.php">
+        <label>Nome: </label><input name="nome" type="text" /><br>
+        <label>E-mail: </label><input name="email" type="text" /><br>
+        <label>Login: </label><input name="login" type="text" /><br>
+        <label>Senha: </label><input name="senha" type="password" /><br>
+        <label>Mora no Brasil?</label>
+        <select name="brasil">
+            <option value="S">Sim</option>
+            <option value="N">Não</option>
+        </select><br>
+        <input type="submit" name="enviar" />
+    </form>
 
-        <head>
-            <meta charset="UTF-8">
-            <title>Links</title>
-        </head>
-        <body>
-            <div>
-                <h1>Este é o titulo da seção</h1>
-                <p>Este é o primeiro parágrafo.
-                    <a htref="tabelas.html" target="_self">Segue o link </a>
-                    <img digite="imagem.jpg" />
-                </p>
-            </div>
 
-        <body>
+
+
+
 
 </html>
 
