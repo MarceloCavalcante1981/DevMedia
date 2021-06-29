@@ -10,7 +10,29 @@ var colecao_produtos = [
 console.log (colecao_produtos.length);
 console.log (colecao_produtos[3]);
 
+
+//execricio:Problema no código
+
+var usuario = {
+    id:2,
+    nome: "Rafael Nogueira Lemos",
+    idade: 17
+};
+
+var atendeAClassificacaoEtaria = usuario.idade >= 18;
+
+if ( atendeAClassificacaoEtaria === true ) {
+
+    console.log("O usuário ainda pode assistir o conteúdo");
+
+} else {
+
+    console.log("O usuário ainda não pode assistir o conteúdo");
+
+}
 */
+
+
 
 
 var colecao_series_programacao = [
@@ -35,5 +57,8 @@ var sinopse_serie = serie_do_dia.sinopse;
 
 console.log("Hoje é dia de " + nome_serie + " às " + horario_serie);
 console.log("A seguir uma visão geral da série: " + sinopse_serie);
+
+
+
 
 
