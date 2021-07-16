@@ -77,3 +77,4 @@ console.log("A seguir uma visão geral da série: " + sinopse_serie);
 
 
 
+
