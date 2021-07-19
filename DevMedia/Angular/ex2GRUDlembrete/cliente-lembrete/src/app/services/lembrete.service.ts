@@ -20,6 +20,10 @@ export class LembreteService {
     const url = '${environment.lembreteApiUrl}/lembrete/';
     return this.http.post<Lembrete>(url,lembrete);
   
+  }
+  addLembrete(lembrete:Lembrete): Observable<Lembrete>{
+    const url = '${environment.lembreteApiUrl}/lembrete/';
+    return this.http.post<Lembrete>(url,lembrete);
 
 
   
