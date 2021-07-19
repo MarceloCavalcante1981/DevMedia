@@ -15,7 +15,12 @@ export class LembreteService {
     const url = '${environment.lembrete}/lembrete';
     return this.http.get<Lembrete[]>(url);
   }
- 
+  
+  getLembrete(id:number): Observable<Lembrete>{
+    const url = '${environment.lembreteApiUrl}/lembrete/';
+    return this.http.post<Lembrete>(url,lembrete);
+  
+
 
   
 }
