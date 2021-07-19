@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import { ErroMsgComponent } from './compartilhado/error-msg/error-msg.component';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   titulo = 'GRUD Lembretes com Angular  ';
+  @ViewChild(ErrorMsgComponent ) errorMsgComponent:ErrorMsgComponen;
+
 }

@@ -4,7 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ErroMsgComponent } from './compartilhado/erro-msg/erro-msg.component';
+import { ErroMsgComponent } from './compartilhado/error-msg/error-msg.component';
 
 @NgModule({
   declarations: [
