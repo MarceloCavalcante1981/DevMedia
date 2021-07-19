@@ -1,12 +1,12 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "cli": {
-    "analytics": "0f00c6ab-d13a-4509-84e3-49a18d01a002"
+    "analytics": "d97ecd27-07ca-4eda-97f9-1e89dbda4811"
   },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "helloWorld": {
+    "cliente-lembrete": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/helloWorld",
+            "outputPath": "dist/cliente-lembrete",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,18 +68,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "helloWorld:build"
+            "browserTarget": "cliente-lembrete:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "helloWorld:build:production"
+              "browserTarget": "cliente-lembrete:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "helloWorld:build"
+            "browserTarget": "cliente-lembrete:build"
           }
         },
         "test": {
@@ -116,16 +116,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "helloWorld:serve"
+            "devServerTarget": "cliente-lembrete:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "helloWorld:serve:production"
+              "devServerTarget": "cliente-lembrete:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "helloWorld"
+  "defaultProject": "cliente-lembrete"
 }
